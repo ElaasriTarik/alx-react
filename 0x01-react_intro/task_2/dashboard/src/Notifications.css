@@ -1,0 +1,23 @@
+.Notifications {
+    padding: 1rem;
+    border: 1px solid #232323;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.Notifications {
+    padding: 1rem;
+    border: 1px dotted #e14b4b;
+}
+
+.Notifications li[data-priority="default"] {
+    color: blue;
+}
+
+.Notifications li[data-priority="urgent"] {
+    color: red;
+}
