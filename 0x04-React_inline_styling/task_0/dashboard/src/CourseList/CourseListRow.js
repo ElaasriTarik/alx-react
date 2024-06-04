@@ -7,7 +7,7 @@ const rowBgColor = {
 const headerBgColor = {
   backgroundColor: "#deb5b545",
 };
-function CourseListRow({ isHeader, textFirstCell, textSecondCell }) {
+export default function CourseListRow({ isHeader, textFirstCell, textSecondCell }) {
   return (
     <tr style={rowBgColor}>
       {isHeader ? (
@@ -40,5 +40,3 @@ CourseListRow.defaultProps = {
   isHeader: false,
   textSecondCell: null,
 };
-
-export default CourseListRow;

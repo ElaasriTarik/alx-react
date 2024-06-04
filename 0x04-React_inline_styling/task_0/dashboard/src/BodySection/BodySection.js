@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 
-class BodySection extends Component {
+export default class BodySection extends Component {
   render() {
     return (
       <div className="bodySection">
@@ -16,5 +16,3 @@ BodySection.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
 };
-
-export default BodySection;

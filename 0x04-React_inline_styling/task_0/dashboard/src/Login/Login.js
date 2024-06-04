@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 
-function Login() {
+export default function Login() {
   return (
     <React.Fragment>
       <div className="App-body">
@@ -17,5 +17,3 @@ function Login() {
     </React.Fragment>
   );
 }
-
-export default Login;

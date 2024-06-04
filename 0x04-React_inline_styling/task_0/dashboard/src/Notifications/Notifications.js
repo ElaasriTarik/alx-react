@@ -5,7 +5,7 @@ import NotificationItem from "./NotificationItem";
 import PropTypes from "prop-types";
 import NotificationItemShape from "./NotificationItemShape";
 
-class Notifications extends Component {
+export default class Notifications extends Component {
   constructor(props) {
     super(props);
 
@@ -71,5 +71,3 @@ Notifications.defaultProps = {
   displayDrawer: false,
   listNotifications: [],
 };
-
-export default Notifications;
