@@ -1,17 +1,6 @@
 import React from "react";
 import { StyleSheet, css } from "aphrodite";
 
-const styles = StyleSheet.create({
-  "App-body": {
-    fontSize: "1rem",
-    padding: "2em",
-    height: "45%",
-  },
-
-  input: {
-    margin: "10px",
-  },
-});
 
 export default function Login() {
   return (
@@ -29,3 +18,14 @@ export default function Login() {
     </React.Fragment>
   );
 }
+const styles = StyleSheet.create({
+  "App-body": {
+    fontSize: "1rem",
+    padding: "2em",
+    height: "45%",
+  },
+
+  input: {
+    margin: "10px",
+  },
+});
