@@ -1,6 +1,5 @@
-import $ from "jquery";
+import $ from 'jquery';
 
-// adding 3 paragraphs to the body
-$("body").append($("<p>").text(`Holberton Dashboard`));
-$("body").append($("<p>").text(`Dashboard data for the students`));
-$("body").append($("<p>").text(`Copyright - Holberton School`));
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
